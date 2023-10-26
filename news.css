@@ -1,0 +1,35 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  .section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  .item-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .item-description {
+    color: lightsalmon;
+  }
+  .item-link {
+    text-decoration: none;
+    color: #0366d6;
+  }
+
+  .content{
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
