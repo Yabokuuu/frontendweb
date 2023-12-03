@@ -1,5 +1,191 @@
-*{
+body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    font-family: 'Golos Text', 'Arial', sans-serif;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: #3c5c84;
+    color: #ffffff;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 100px;
+}
+
+.logo-nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#site-logo {
+    height: 80px; 
+    margin-right: 20;
+    
+}
+
+header h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    margin: 0;
+}
+
+
+nav {
+    margin-left: auto; 
+    margin-right: -10px; 
+    margin-top: -50px; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+/* Featured Innovator Styles */
+.featured-innovator {
+    padding: 40px 0;
+    background: #e9ecef;
+}
+
+.featured-innovator .innovator-content {
+    display: flex;
+    align-items: center;
+}
+
+.featured-innovator img {
+    width: 40%; 
+    height: auto;
+    margin-right: 20px; 
+
+}
+
+.featured-innovator .innovator-info {
+    flex-grow: 1; 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header h1 {
+        position: static;
+        transform: none;
+    }
+
+    nav {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    .featured-innovator .innovator-content {
+        flex-direction: column;
+    }
+
+    .featured-innovator img {
+        width: 100%;
+        margin-right: 0; 
+    }
+}
+
+/* Main Content Styles */
+main .featured-innovator, 
+main .other-innovators {
+    padding: 40px 0;
+    background: #e9ecef;
+}
+
+.featured-innovator img {
+    width: 100%;
+    height: auto;
+    border-bottom: 4px solid #007bff;
+}
+
+.featured-innovator div {
+    padding: 20px;
+}
+
+.other-innovators .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.innovator-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.innovator-card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer Styles */
+footer {
+    background: #3c5c84;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+@media (max-width: 768px) {
+    .other-innovators .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

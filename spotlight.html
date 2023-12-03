@@ -1,35 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="spotlight.css" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Tech Spotlight</title>
-  </head>
-  <body>
-    <section class="header">
-      <nav>
-        <div>
-          <div class="nav-links">
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="News_Insights.html">Tech News and Insights</a></li>
-              <li><a href="academy.html">Learning Academy</a></li>
-              <li><a href="spotlight.html">Innovator Spotlight</a></li>
-              <li>
-                <a href="colaboration.html">Collaboration Spaces: Forums</a>
-              </li>
-              <li><a href="mentorship.html">Mentorship Program:</a></li>
-              <li><a href="events.html">Events</a></li>
-            </ul>
-          </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHub - Innovator Spotlight GIT !!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!-- Logo and Navigation Wrapper -->
+            <div class="logo-nav-wrapper">
+                <!-- Logo -->
+                <a href="index.html">
+                    <img src="techhub-primary-logo.png" alt="TechHub Logo" id="site-logo">
+                </a>
+                
+    
+                <!-- Navigation -->
+                <nav>
+                    <div class="nav-links">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="news.html">Tech News & Insights</a></li>
+                            <li><a href="academy.html">Learning Academy</a></li>
+                            <li><a href="forums.html">Mentorship & Forums</a></li>
+                            <li><a href="events.html">Events</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+    
+            <!-- Title -->
+            <h1>Innovator Spotlight</h1>
         </div>
-      </nav>
-      <div class="text-box">
-        <h1>Tech Spotlight</h1>
-      </div>
-    </section>
-  </body>
+    </header>
+    
+    <main>
+        <section class="featured-innovator">
+            <div class="container">
+                <div class="innovator-content">
+                    <img src="featured-innovator.jpg" alt="Featured Innovator">
+                    <div class="innovator-info">
+                        <h2>Elon Musk - Neuralink</h2>
+                        <p>Elon Musk's Neuralink received FDA clearance for its first-in-human clinical trial, a significant step for the brain-implant startup. The company expects to begin its first human trial this year, focusing on a brain implant to assist individuals with paralysis.
+                        </p>
+                        <a href="https://neuralink.com/" target="_blank" rel="noopener noreferrer">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section class="other-innovators">
+            <div class="container">
+                <!-- Innovator 1 -->
+                <div class="innovator-card">
+                    <img src="innovator-1.jpg" alt="Innovator Name">
+                    <h3>Sam Altman - ChatGPT</h3>
+                    <p>As the CEO of OpenAI, Sam Altman, oversees the development ChatGPT. Under his leadership, OpenAI released GPT-4, the latest version of the ChatGPT model. GPT-4 exhibits advancements in accuracy, complexity handling, and reduced biases, marking significant progress in natural language processing capabilities and AI development.
+
+                    </p>
+                    <a href="https://openai.com/research/gpt-4" target="_blank" rel="noopener noreferrer">Read More</a>
+                </div>
+                <!-- Innovator 2 -->
+                <div class="innovator-card">
+                    <img src="innovator-2.jpg" alt="Innovator Name">
+                    <h3>Microsoft - Project Silica</h3>
+                    <p>
+                        Microsoft's Project Silica is a cutting-edge technology that turns durable quartz glass into a virtually indestructible data storage medium. Using lasers to encode data in glass, it offers a revolutionary way to preserve vast amounts of data for centuries, outlasting traditional storage devices and surviving extreme conditions. This futuristic technology is set to redefine long-term data archival.
+                    </p>
+                    <a href="https://www.microsoft.com/en-us/research/project/project-silica/" target="_blank" rel="noopener noreferrer">Read More</a>
+                </div>
+                <!-- Innovator 3 -->
+                <div class="innovator-card">
+                    <img src="innovator-3.jpg" alt="Innovator Name">
+                    <h3>Demis Hassabis - DeepMind</h3>
+                    <p>DeepMind, under CEO Demis Hassabis, is revolutionizing AI with its latest innovation: AI-driven protein folding. Their AI system, AlphaFold, astounded the scientific community by solving the decades-old challenge of predicting protein structures accurately, a breakthrough with vast implications for medicine and biology.
+
+                    </p>
+                    <a href="https://deepmind.google/technologies/alphafold/" target="_blank" rel="noopener noreferrer">Read More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 TechHub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
 </html>
