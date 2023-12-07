@@ -90,7 +90,90 @@ nav ul {
     width: 100%;
 }
 
+/* Featured Innovator Styles */
+.featured-innovator {
+    padding: 40px 0;
+    background: #e9ecef;
+}
 
+.featured-innovator .innovator-content {
+    display: flex;
+    align-items: center;
+}
+
+.featured-innovator img {
+    width: 40%; 
+    height: auto;
+    margin-right: 20px; 
+
+}
+
+.featured-innovator .innovator-info {
+    flex-grow: 1; 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header h1 {
+        position: static;
+        transform: none;
+    }
+
+    nav {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    .featured-innovator .innovator-content {
+        flex-direction: column;
+    }
+
+    .featured-innovator img {
+        width: 100%;
+        margin-right: 0; 
+    }
+}
+
+/* Main Content Styles */
+main .featured-innovator, 
+main .other-innovators {
+    padding: 40px 0;
+    background: #e9ecef;
+}
+
+.featured-innovator img {
+    width: 100%;
+    height: auto;
+    border-bottom: 4px solid #007bff;
+}
+
+.featured-innovator div {
+    padding: 20px;
+}
+
+.other-innovators .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.innovator-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.innovator-card img {
+    width: 100%;
+    height: auto;
+}
 
 /* Footer Styles */
 footer {
