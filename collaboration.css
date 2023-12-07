@@ -89,6 +89,29 @@ nav ul {
 .nav-links ul li:hover::after{
     width: 100%;
 }
+/* seach bar*/
+.search-container {
+    text-align: right;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #3c5c84;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #edf3ed;
+}
 
 /* Featured Innovator Styles */
 .featured-innovator {
