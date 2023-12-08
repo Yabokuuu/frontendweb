@@ -15,6 +15,7 @@ body {
 }
 
 /* Header Styles */
+
 header {
     background: #3c5c84;
     color: #ffffff;
@@ -89,7 +90,79 @@ nav ul {
 .nav-links ul li:hover::after{
     width: 100%;
 }
+/* seach bar */
+.search-container {
+    text-align: right;
+    margin-top: -45px;
+}
 
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #3c5c84;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #edf3ed;
+}*/
+
+/* Featured Innovator Styles */
+.featured-innovator {
+    padding: 40px 0;
+    background: #3c5c84;;
+}
+
+.featured-innovator .innovator-content {
+    display: flex;
+    align-items: center;
+}
+
+.featured-innovator img {
+    width: 40%; 
+    height: auto;
+    margin-right: 20px; 
+
+}
+
+.featured-innovator .innovator-info {
+    flex-grow: 1; 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header h1 {
+        position: static;
+        transform: none;
+    }
+
+    nav {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    .featured-innovator .innovator-content {
+        flex-direction: column;
+    }
+
+    .featured-innovator img {
+        width: 100%;
+        margin-right: 0; 
+    }
+}
 
 
 /* Footer Styles */
