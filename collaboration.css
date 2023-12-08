@@ -15,6 +15,7 @@ body {
 }
 
 /* Header Styles */
+
 header {
     background: #3c5c84;
     color: #ffffff;
@@ -89,7 +90,7 @@ nav ul {
 .nav-links ul li:hover::after{
     width: 100%;
 }
-/* seach bar*/
+/* seach bar */
 .search-container {
     text-align: right;
     margin-top: 10px;
@@ -111,7 +112,7 @@ button {
 
 button:hover {
     background-color: #edf3ed;
-}
+}*/
 
 /* Featured Innovator Styles */
 .featured-innovator {
