@@ -98,7 +98,7 @@ nav ul {
 
 input[type="text"] {
     padding: 10px;
-    font-size: 16px;
+    font-size: 10px;
 }
 
 button {
@@ -107,7 +107,7 @@ button {
     color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 10px;
 }
 
 button:hover {
