@@ -125,12 +125,11 @@ main {
     display: center;
 }
 .forum-container h1{
-
-
+    display: center
 
 }
 .forum-list {
-    margin-top: 100px;
+    margin-top: 5 0px;
 }
 
 .forum-item {
