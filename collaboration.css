@@ -112,91 +112,40 @@ button {
 
 button:hover {
     background-color: #273145;
-}*/
-
-/* Featured Innovator Styles */
-.featured-innovator {
-    padding: 40px 0;
-    background: #3c5c84;;
 }
 
-.featured-innovator .innovator-content {
-    display: flex;
-    align-items: center;
-}
-
-.featured-innovator img {
-    width: 40%; 
-    height: auto;
-    margin-right: 20px; 
-
-}
-
-.featured-innovator .innovator-info {
-    flex-grow: 1; 
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    header h1 {
-        position: static;
-        transform: none;
-    }
-
-    nav {
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 10px;
-    }
-
-    .featured-innovator .innovator-content {
-        flex-direction: column;
-    }
-
-    .featured-innovator img {
-        width: 100%;
-        margin-right: 0; 
-    }
-}
-
-/* Main Content Styles */
-main .featured-innovator, 
-main .other-innovators {
-    padding: 40px 0;
-    background: #e9ecef;
-}
-
-.featured-innovator img {
-    width: 100%;
-    height: auto;
-    border-bottom: 4px solid #007bff;
-}
-
-.featured-innovator div {
+/*main style*/
+main {
     padding: 20px;
 }
 
-.other-innovators .container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+.forum-container {
+    max-width: 800px;
+    margin: auto;
+    display: center;
+}
+.forum-container h1{
+
+
+
+}
+.forum-list {
+    margin-top: 100px;
 }
 
-.innovator-card {
-    background: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    text-align: center;
+.forum-item {
+    background-color: #6e95c5;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
 
-.innovator-card img {
-    width: 100%;
-    height: auto;
+.forum-item h2 {
+    color: #2a415e;
+}
+
+.forum-item p {
+    color: #555;
 }
 
 /* Footer Styles */
