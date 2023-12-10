@@ -8,46 +8,6 @@ body {
     background-color: #f4f4f4;
 }
 
-main {
-    font-size: 30px;
-}
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-    overflow: hidden;
-}
-
-.container-maps {
-    flex: 1;
-    top : 1000000px;
-}
-
-.column {
-    float: left;
-}
-
-.left {
-    width: 33%;
-    text-align: center;
-    }
-
-.middle {
-    width: 33%;
-    text-align: center;
-}
-    
-.right1 {
-    width: 33%;
-    text-align: center;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 
 /* Header Styles */
 
@@ -149,71 +109,46 @@ button:hover {
     background-color: #edf3ed;
 }*/
 
-/* Featured Innovator Styles */
-.featured-innovator {
-    padding: 40px 0;
-    background: #3c5c84;;
+main {
+    font-size: 30px;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
 }
 
-.featured-innovator .innovator-content {
-    display: flex;
-    align-items: center;
+.container-maps {
+    flex: 1;
+    top : 1000000px;
 }
 
-.featured-innovator img {
-    width: 40%; 
-    height: auto;
-    margin-right: 20px; 
-
+.column {
+    float: left;
 }
 
-.featured-innovator .innovator-info {
-    flex-grow: 1; 
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    header h1 {
-        position: static;
-        transform: none;
-    }
-
-    nav {
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 10px;
-    }
-
-    .featured-innovator .innovator-content {
-        flex-direction: column;
-    }
-
-    .featured-innovator img {
-        width: 100%;
-        margin-right: 0; 
-    }
-}
-
-
-/* Footer Styles */
-footer {
-    background: #3c5c84;
-    color: #ffffff;
+.left {
+    width: 33%;
     text-align: center;
-    padding: 10px 0;
-}
-
-
-@media (max-width: 768px) {
-    .other-innovators .container {
-        grid-template-columns: repeat(1, 1fr);
     }
+
+.middle {
+    width: 33%;
+    text-align: center;
 }
+    
+.right1 {
+    width: 33%;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
 
 .field{
 	width: 100%;
@@ -290,3 +225,20 @@ main {
     display: table;
     clear: both;
 }
+
+/* Footer Styles */
+footer {
+    background: #3c5c84;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+@media (max-width: 768px) {
+    .other-innovators .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
