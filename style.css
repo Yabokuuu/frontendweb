@@ -2,7 +2,10 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    
+    
 }
+
 
 body {
     font-family: 'Arial', sans-serif;
@@ -14,11 +17,11 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-
-    /*background-image: url('/Users/roanjones/Desktop/techhub-homepage.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;*/
+    background-image: url('/Users/roanjones/Documents/GitHub/frontendweb/imgs/techhub-homepage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 .container {
@@ -47,9 +50,8 @@ header {
 }
 
 #site-logo {
-    height: 80px; 
+    height: 80px;
     margin-right: 20;
-    
 }
 
 header h1 {
@@ -60,38 +62,37 @@ header h1 {
     margin: 0;
 }
 
-
 nav {
-    margin-left: auto; 
-    margin-right: -10px; 
-    margin-top: -50px; 
+    margin-left: auto;
+    margin-right: -10px;
+    margin-top: -50px;
 }
 
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex; 
+    display: flex;
 }
 
-.nav-links{
+.nav-links {
     flex: 1;
     text-align: right;
 }
 
-.nav-links ul li{
+.nav-links ul li {
     display: inline-block;
     padding: 8px 12px;
     position: relative;
 }
 
-.nav-links ul li a{
+.nav-links ul li a {
     color: white;
     text-decoration: none;
     font-size: 14px;
 }
 
-.nav-links ul li::after{
+.nav-links ul li::after {
     content: '';
     width: 0%;
     height: 2px;
@@ -128,61 +129,45 @@ button:hover {
     background-color: #edf3ed;
 }*/
 
-/* Featured Innovator Styles */
-.featured-innovator {
-    padding: 40px 0;
-    background: #3c5c84;;
-}
-
-.featured-innovator .innovator-content {
-    display: flex;
-    align-items: center;
-}
-
-.featured-innovator img {
-    width: 40%; 
-    height: auto;
-    margin-right: 20px; 
-
-}
-
-.featured-innovator .innovator-info {
-    flex-grow: 1; 
-}
-
 
 
 /* Hero Section Styles */
 .hero {
+    margin-top: 300px;
     background: #f4f4f4;
-    padding-top: 150px;
-    /*padding: 50px 0;*/
     padding-bottom: 20px;
+    display: flex;
+    justify-content: center; /* Centers the content vertically */
+    align-items: center; /* Centers the content horizontally */
     text-align: center;
+}
 
-    /*background-image: url('/Users/roanjones/Desktop/techhub-homepage.jpg');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;*/
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items to center */
+    /* Add width if necessary, e.g., width: 100%; */
+    padding-top: 150px;
 }
 
 .hero-content h2 {
     font-size: 48px;
     margin: 0;
-    color: #3c5c84;
+    color: #ffffff;
     font-family: 'Arial', sans-serif;
+    text-align: center; 
 }
 
 .tagline {
     font-size: 24px;
-    color: #666;
+    color: #ffffff;
     margin-top: 10px;
 }
 
 .btn {
     display: inline-block;
-    background-color: #3c5c84;
-    color: white;
+    background-color: #ffffff;
+    color: #3c5c84;
     padding: 10px 20px;
     margin-top: 20px;
     text-decoration: none;
@@ -197,10 +182,12 @@ button:hover {
 .social-links {
     margin-top: 20px;
     margin-bottom: 10px;
+    text-align: center; /* Center-align social links */
+    display: inline-block;
 }
 
 .social-links a {
-    color: #3c5c84;
+    color: #ffffff;
     text-decoration: none;
     margin: 0 10px;
 }
