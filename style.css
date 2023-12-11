@@ -113,21 +113,21 @@ nav ul {
 
 input[type="text"] {
     padding: 10px;
-    font-size: 16px;
+    font-size: 10px;
 }
 
 button {
     padding: 10px 15px;
-    background-color: #3c5c84;
+    background-color: #2a415e;
     color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 button:hover {
-    background-color: #edf3ed;
-}*/
+    background-color: #273145;
+}
 
 
 
