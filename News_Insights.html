@@ -1,57 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
     <title>TechHub - Innovator Spotlight</title>
-    <link rel="stylesheet" href="news.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <!-- Logo and Navigation Wrapper -->
-            <div class="logo-nav-wrapper">
-                <!-- Logo -->
-                <a href="index.html">
-                    <img src="imgs/techhub-primary-logo.png" alt="TechHub Logo" id="site-logo">
-                </a>
-                
-    
-                <!-- Navigation -->
-                <nav>
-                    <div class="nav-links">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="News_Insights.html">Tech News & Insights</a></li>
-                            <li><a href="academy.html">Learning Academy</a></li>
-                            <li><a href="spotlight.html">Innovator Spotlight</a></li>
-                            <li><a href="colaboration.html">Forums</a></li>
-                            <li><a href="events.html">Events</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </nav>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      /* the slides */
+      .slick-slide {
+        margin: 0 10px;
+      }
+
+      .slick-prev:before,
+      .slick-next:before {
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="site-content">
+      <header>
+          <div class="container">
+              <!-- Logo and Navigation Wrapper -->
+              <div class="logo-nav-wrapper">
+                  <!-- Logo -->
+                  <a href="index.html">
+                      <img src="imgs/techhub-primary-logo.png" alt="TechHub Logo" id="site-logo">
+                  </a>
+                  
+      
+                  <!-- Navigation -->
+                  <nav>
+                      <div class="nav-links">
+                          <ul>
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="News_Insights.html">Tech News & Insights</a></li>
+                              <li><a href="academy.html">Learning Academy</a></li>
+                              <li><a href="spotlight.html">Innovator Spotlight</a></li>
+                              <li><a href="colaboration.html">Forums</a></li>
+                              <li><a href="events.html">Events</a></li>
+                              <li><a href="contact.html">Contact Us</a></li>
+                          </ul>
+                      </div>
+                  </nav>
+              </div>
+              <div class="search-container">
+
+              <input type="text" placeholder="Search...">
+              <button type="submit">Search</button>
+              
+          </div>
+      
+              <!-- Title -->
+              <h1></h1>
+          </div>
+      </header>
+
+      
+    <div class="container mt-3">
+      <div class="row responsive">
+        <div class="col-lg-4">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="images/1.jpg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <h4 class="card-title">
+                The Rise of Artificial Intelligence in Healthcare
+              </h4>
+              <p class="card-text">
+                Artificial Intelligence (AI) is transforming healthcare on
+                multiple fronts, ushering in a new era of innovation and
+                efficiency. From diagnosis to personalized treatment plans, the
+                impact of AI on patient care is profound.
+              </p>
+              <a href="#" class="btn btn-primary">Read More</a>
             </div>
-            <div class="search-container">
-
-                <input type="text" placeholder="Search...">
-                <button type="submit">Search</button>
-                
-             </div>
-    
-            <!-- Title -->
-            <h1>Tech News & Insights</h1>
+          </div>
         </div>
-    </header>
-    
-    <main>
-       <p>bhdfsgfudsjfnsjlfnsljn</p>
-    </main>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 TechHub. All rights reserved.</p>
+        <div class="col-lg-4">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="images/2.jpg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <h4 class="card-title">
+                Breaking Tech: Quantum Computing Breakthrough
+              </h4>
+              <p class="card-text">
+                Recent developments in quantum computing have propelled the
+                field to new heights, unlocking capabilities that were once
+                thought to be in the realm of science fiction. Quantum computing
+                leverages the principles of quantum mechanics to perform
+                computations at speeds unimaginable with classical computers.
+              </p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
         </div>
-    </footer>
-</body>
+
+        <div class="col-lg-4">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="images/3.jpg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <h4 class="card-title">
+                Revolutionizing Renewable Energy: Solar Power Innovations
+              </h4>
+              <p class="card-text">
+                The field of renewable energy, particularly solar power, is
+                undergoing a rapid transformation with groundbreaking
+                innovations driving efficiency and sustainability. Solar
+                technology advancements are reshaping how we harness energy from
+                the sun, paving the way for a cleaner and more sustainable
+                future.
+              </p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="images/4.jpg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <h4 class="card-title">
+                Exciting Tech News: Breakthrough in Quantum Communication
+              </h4>
+              <p class="card-text">
+                In a major breakthrough, scientists have achieved teleportation
+                of quantum information over a record distance, marking a
+                significant stride in quantum communication. This achievement
+                has the potential to revolutionize secure communication,
+                offering ultra-secure channels resistant to hacking and
+                eavesdropping. The breakthrough opens doors to a new era of
+                quantum technology, impacting global communication and data
+                security across various industries
+              </p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
+      integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      $(".responsive").slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ],
+      });
+    </script>
+  </body>
 </html>

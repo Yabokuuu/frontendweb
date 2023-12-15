@@ -179,3 +179,12 @@ footer {
       grid-template-columns: repeat(1, 1fr);
   }
 }
+
+
+/* content */
+.content{
+  width: 90%;
+  margin: 30px auto 30px;
+  border: 1px solid red;
+  
+}
