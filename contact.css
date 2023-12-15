@@ -43,7 +43,7 @@ header h1 {
 
 
 nav {
-    margin-left: auto; 
+    margin-left: 170px; 
     margin-right: -10px; 
     margin-top: -50px; 
 }
@@ -61,9 +61,9 @@ nav ul {
 }
 
 .nav-links ul li{
-    display: inline-block;
+    /* display: inline-block; */
     padding: 8px 12px;
-    position: relative;
+    position:  relative;
 }
 
 .nav-links ul li a{
@@ -88,7 +88,9 @@ nav ul {
 /* seach bar */
 .search-container {
     text-align: right;
-    margin-top: -45px;
+    margin-top: 45px;
+    /* margin-right: 200px;
+    position: relative; */
 }
 
 input[type="text"] {

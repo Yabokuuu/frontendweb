@@ -90,10 +90,10 @@ nav ul {
 .nav-links ul li:hover::after{
     width: 100%;
 }
-/* seach bar */
+/* search bar */
 .search-container {
     text-align: right;
-    margin-top: -55px;
+    /* margin-top: -55px; */
 }
 
 input[type="text"] {
